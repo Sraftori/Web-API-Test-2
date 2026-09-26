@@ -58,26 +58,26 @@ function getWeatherStatus(isDay, weatherCode, temperature) {
     return `${time}-${condition}`;
 }
 
-async function test() {
-    const data = await getCoordinates(
-        'cairo'
-    );
-    const weather = await getWeather(
-        data.latitude,
-        data.longitude
-    );
-    const status = getWeatherStatus(
-        weather.isDay,
-        weather.weatherCode,
-        weather.temperature
-    );
+// async function test() {
+    // const data = await getCoordinates(
+    //     'cairo'
+    // );
+    // const weather = await getWeather(
+    //     data.latitude,
+    //     data.longitude
+    // );
+    // const status = getWeatherStatus(
+    //     weather.isDay,
+    //     weather.weatherCode,
+    //     weather.temperature
+    // );
     // console.log(status);
     // console.log(data);
     // console.log(weather);
 
-}
+// }
 
-test();
+// test();
 
 const bgLayer = document.querySelector("#bgLayer");
 const search = document.querySelector("#searchForm");
