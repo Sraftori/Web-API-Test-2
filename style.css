@@ -335,7 +335,7 @@ body {
   height: 4px;
   margin: 24px auto;
   border-radius: 5px;
-  background: linear-gradient(90deg, transparent, var(--blossom), var(--moon-glow));
+  background: linear-gradient(90deg, transparent, rgba(0, 255, 0, 0.5), var(--moon-glow));
   box-shadow: 0 0 12px var(--blossom);
   animation: spin 1.8s linear infinite;
 }
